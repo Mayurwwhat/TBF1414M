@@ -1,8 +1,22 @@
+import org.omg.CORBA.PUBLIC_MEMBER;
 
-public class Getit {
+public class Getit 
+{
 
-	public static void main(String[] args) {
-	System.out.println("Hello");
+	
+	  public void m3() 
+      {
+    	  System.out.println("m1 call ");
+    	  
+    	  
+      }
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello");
+    
+		Getit get = new Getit();
+		get.m3();
+
 	}
 
 }
