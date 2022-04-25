@@ -24,7 +24,6 @@ public class Getit
 		get.m3();
 		get.m4();
 		get.m5();
-
 	}
 
 }
